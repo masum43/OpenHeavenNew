@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?videoListBackground"
+    tools:context=".ui.activities.YoutubeSearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bannerContainer"
+        android:orientation="vertical"
+        tools:ignore="UnknownIdInLayout">
+
+        <include layout="@layout/appbar_toolbar" />
+
+        <fragment
+            android:id="@+id/youtube_search_fragment"
+            android:name="com.newandromo.dev18147.app821162.ui.fragments.YoutubeSearchFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_youtube_search" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/bannerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible" />
+</RelativeLayout>

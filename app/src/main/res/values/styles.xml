@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="None" />
+
+    <!-- Card Items Style -->
+    <style name="CardView.Style" parent="CardView">
+        <item name="cardBackgroundColor">?appCardBackground</item>
+        <item name="cardCornerRadius">@dimen/card_default_radius</item>
+        <item name="cardElevation">@dimen/card_default_elevation</item>
+        <item name="cardPreventCornerOverlap">@bool/card_prevent_corner_overlap</item>
+        <item name="cardUseCompatPadding">@bool/card_use_compat_padding</item>
+        <item name="contentPadding">0dp</item>
+    </style>
+
+    <style name="Card.ListItem.Root" parent="CardView.Style">
+        <!--<item name="android:background">@drawable/shape_card_background_default</item>-->
+        <!--<item name="android:foreground">?android:attr/selectableItemBackground</item>-->
+    </style>
+
+    <style name="Card.ListItem.LinearLayout" parent="None">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="CardItem">
+        <item name="android:ellipsize">end</item>
+        <item name="android:textIsSelectable">false</item>
+    </style>
+
+    <style name="CardItemTitleCompact" parent="@style/CardItem">
+        <item name="android:fontFamily">@font/lato_bold</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:textColor">?appTextColorPrimary</item>
+    </style>
+
+    <style name="CardItem.Title.Compact" parent="@style/CardItemTitleCompact">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="CardItem.Title.Compact.Media" parent="@style/CardItemTitleCompact">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="CardItem.Title.Large" parent="@style/CardItemTitleCompact">
+        <!--Only for devices smaller than tablets-->
+        <item name="android:textSize">@dimen/entry_title_text_size_large</item>
+    </style>
+
+    <style name="CardItemDescriptionCompact" parent="@style/CardItem">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:maxLines">@integer/entry_description_max_lines_compact</item>
+        <item name="android:textColor">?appTextColorSecondary</item>
+    </style>
+
+    <style name="CardItem.Description.Compact" parent="@style/CardItemDescriptionCompact">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CardItem.Description.Compact.Media" parent="@style/CardItemDescriptionCompact">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="CardItem.Description.Large" parent="@style/CardItemDescriptionCompact">
+        <item name="android:maxLines">3</item>
+        <!--Only for devices smaller than tablets-->
+        <item name="android:textSize">@dimen/entry_description_text_size_large</item>
+    </style>
+
+    <style name="CardItem.TimeFeedTitle.Compact" parent="@style/CardItemDescriptionCompact">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CardItem.TimeFeedTitle.Large" parent="@style/CardItemDescriptionCompact">
+        <item name="android:maxLines">1</item>
+        <!--Only for devices smaller than tablets-->
+        <item name="android:textSize">@dimen/entry_timefeedtitle_text_size_large</item>
+    </style>
+
+    <!-- Video Items Style -->
+    <style name="VideoItemText">
+        <item name="android:ellipsize">end</item>
+        <item name="android:textIsSelectable">false</item>
+    </style>
+
+    <style name="VideoItemText.Title" parent="@style/VideoItemText">
+        <item name="android:maxLines">3</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+        <item name="android:textColor">?appTextColorPrimary</item>
+    </style>
+
+    <style name="VideoItemText.Channel" parent="@style/VideoItemText">
+        <item name="android:maxLines">1</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+        <item name="android:textColor">?appTextColorSecondary</item>
+    </style>
+
+    <style name="VideoItemText.DateViews" parent="@style/VideoItemText">
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">?appTextColorSecondary</item>
+        <item name="android:textSize">12.5sp</item>
+    </style>
+
+    <style name="SocialButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:fontFamily">@font/lato_bold</item>
+        <!--<item name="android:layout_marginBottom">4dp</item>-->
+        <!--<item name="android:layout_marginEnd">4dp</item>-->
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="SocialButtonStyle" parent="@style/SocialButton" />
+
+    <style name="SocialButton.Facebook" parent="@style/SocialButton">
+        <item name="colorButtonNormal">#3b5998</item>
+    </style>
+
+    <style name="SocialButton.Twitter" parent="@style/SocialButton">
+        <item name="colorButtonNormal">#1da1f2</item>
+    </style>
+
+    <style name="SocialButton.WhatsApp" parent="@style/SocialButton">
+        <item name="colorButtonNormal">#25d366</item>
+    </style>
+
+    <style name="SocialButton.SMS" parent="@style/SocialButton">
+        <item name="colorButtonNormal">#0084ff</item>
+    </style>
+
+    <style name="AppTheme.AdAttribution">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:text">Ad</item>
+        <item name="android:background">#FFCC66</item>
+        <item name="android:width">15dp</item>
+        <item name="android:height">15dp</item>
+    </style>
+</resources>

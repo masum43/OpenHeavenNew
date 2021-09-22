@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.applovin.mediation:facebook-adapter:6.5.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ceb3e493dcbd3d076580aed9b3e6236/jetified-facebook-adapter-6.5.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ceb3e493dcbd3d076580aed9b3e6236/jetified-facebook-adapter-6.5.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ceb3e493dcbd3d076580aed9b3e6236/jetified-facebook-adapter-6.5.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.applovin.mediation/facebook-adapter/6.5.1.0/c9c8045d37aef78a9d228591647dd20e2976af7a/facebook-adapter-6.5.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

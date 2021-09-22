@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/onAcceptPolicy">
+        <item
+            android:id="@+id/action_search"
+            android:icon="@drawable/ic_search_white_24dp"
+            android:orderInCategory="0"
+            android:title="@string/search"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/menu_open_on_youtube"
+            android:icon="@drawable/ic_exit_to_app_white_24dp"
+            android:orderInCategory="2"
+            android:title="@string/youtube_open_in"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/menu_share"
+            android:icon="@drawable/ic_share_white_24dp"
+            android:orderInCategory="3"
+            android:title="@string/share"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/menu_refresh"
+            android:orderInCategory="25"
+            android:title="@string/menu_refresh"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/menu_player_options"
+            android:orderInCategory="50"
+            android:title="@string/youtube_player_options"
+            app:showAsAction="never" />
+    </group>
+
+    <item
+        android:id="@+id/menu_youtube_terms"
+        android:orderInCategory="300"
+        android:title="@string/terms_and_privacy_policy"
+        app:showAsAction="never" />
+</menu>

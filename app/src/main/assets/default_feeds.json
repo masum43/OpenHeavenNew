@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "defaults": [
+    {
+      "id": "en",
+      "name": "English",
+      "native": "English",
+      "category_feeds": [
+        {
+          "category": "All",
+          "feeds": [
+            {
+              "name": "All",
+              "url" :  "https://www.blogger.com/feeds/248978833466570786/posts/default?start-index=1&max-results=15",
+              "web": "http://www.ambydennis.com/",
+              "google_blog_id": "248978833466570786",
+              "is_json": false,
+              "is_google_json": true,
+              "is_wordpress_json": false
+            }
+          ]
+        },
+        {
+          "category": "Open Heaven",
+          "feeds": [
+            {
+              "name": "Open Heaven",
+              "url" :  "https://www.blogger.com/feeds/248978833466570786/posts/default/-/Open%20Heaven%20Devotionals?start-index=1&max-results=15",
+              "web": "http://www.ambydennis.com/",
+              "google_blog_id": "248978833466570786",
+              "is_json": false,
+              "is_google_json": true,
+              "is_wordpress_json": false
+            }
+          ]
+        },
+        {
+          "category": "Daily prayer n Affirmation",
+          "feeds": [
+            {
+              "name": "Daily prayer n Affirmation",
+              "url" :  "https://www.blogger.com/feeds/248978833466570786/posts/default/-/Daily%20Prayers%20%26%20Affirmations?start-index=1&max-results=15",
+              "web": "http://www.ambydennis.com/",
+              "google_blog_id": "248978833466570786",
+              "is_json": false,
+              "is_google_json": true,
+              "is_wordpress_json": false
+            }
+          ]
+        },
+        {
+          "category": "Daily Manna Devotional",
+          "feeds": [
+            {
+              "name": "Daily prayer n Affirmation",
+              "url" :  "https://www.blogger.com/feeds/248978833466570786/posts/default/-/Daily%20Manna%20Devotonals?start-index=1&max-results=15",
+              "web": "http://www.ambydennis.com/",
+              "google_blog_id": "248978833466570786",
+              "is_json": false,
+              "is_google_json": true,
+              "is_wordpress_json": false
+            }
+          ]
+        },
+        {
+          "category": "Kenneth Copeland",
+          "feeds": [
+            {
+              "name": "Kenneth Copeland",
+              "url" :  "https://www.blogger.com/feeds/248978833466570786/posts/default/-/Kenneth%20Copeland%20Devotonals?start-index=1&max-results=15",
+              "web": "http://www.ambydennis.com/",
+              "google_blog_id": "248978833466570786",
+              "is_json": false,
+              "is_google_json": true,
+              "is_wordpress_json": false
+            }
+          ]
+        },
+        {
+          "category": "Rhapsody Of Realities",
+          "feeds": [
+            {
+              "name": "Rhapsody Of Realities",
+              "url" :  "https://www.blogger.com/feeds/248978833466570786/posts/default/-/Rhapsody%20Of%20Realities%20Devotionals?start-index=1&max-results=15",
+              "web": "http://www.ambydennis.com/",
+              "google_blog_id": "248978833466570786",
+              "is_json": false,
+              "is_google_json": true,
+              "is_wordpress_json": false
+            }
+          ]
+        },
+        {
+          "category": "Andrew wommack devotional",
+          "feeds": [
+            {
+              "name": "Andrew wommack devotional",
+              "url" :  "https://www.blogger.com/feeds/248978833466570786/posts/default/-/Andrew%20Wommack?start-index=1&max-results=15",
+              "web": "http://www.ambydennis.com/",
+              "google_blog_id": "248978833466570786",
+              "is_json": false,
+              "is_google_json": true,
+              "is_wordpress_json": false
+            }
+          ]
+        }
+      ],
+     "youtube": [
+        {
+          "id": "UCJUJP0TvxI_eQi8Xos9Rl_Q",
+          "name": "#Mwakasege Blog"
+        }
+      ]
+
+    }
+  ]
+}

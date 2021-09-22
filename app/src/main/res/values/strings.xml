@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name" translatable="false">Open Heavens</string>
+
+
+    <string name="admob_app_id" translatable="false">ca-app-pub-3285248344087070~4868786630</string>
+
+    <string name="app_key" translatable="false">104ce79f9</string>
+    <string name="irnSrcInterstitial" translatable="false">DefaultInterstitial</string>
+    <string name="irnSrcBanner" translatable="false">DefaultBanner</string>
+
+<!--104e240b9
+
+
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_native" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="app_key" translatable="false">fc295239</string>
+    <string name="irnSrcInterstitial" translatable="false">DefaultInterstitial</string>
+    <string name="irnSrcBanner" translatable="false">DefaultBanner</string>
+
+AdmobTest:
+App Id: ca-app-pub-3940256099942544~3347511713
+Native: ca-app-pub-3940256099942544/2247696110
+-->
+
+    <!-- =============== NO TRANSLATION <START> ================== -->
+    <string name="more" translatable="false">&#8230;</string>
+    <string name="share_via" translatable="false">%1$s via %2$s</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="social_facebook" translatable="false">Facebook</string>
+    <string name="social_sms" translatable="false">SMS</string>
+    <string name="social_twitter" translatable="false">Twitter</string>
+    <string name="social_whatsapp" translatable="false">WhatsApp</string>
+    <!-- =============== Custom Schemes ================== -->
+    <string name="scheme_my_app" translatable="false">myapp</string>
+    <string name="scheme_youtube" translatable="false">youtube</string>
+    <string name="scheme_radio" translatable="false">radiovuti</string>
+    <string name="scheme_channel" translatable="false">channel</string>
+    <string name="scheme_playlist" translatable="false">playlist</string>
+    <!-- =============== Font Size ================== -->
+    <string name="font_size_tiny" translatable="false">-2</string>
+    <string name="font_size_small" translatable="false">-1</string>
+    <string name="font_size_large" translatable="false">+1</string>
+    <string name="font_size_huge" translatable="false">+2</string>
+
+
+
+    <plurals name="notification_new_posts">
+        <item quantity="other">%1$d new posts</item>
+        <item quantity="one">%1$d new post</item>
+        <!--<item quantity="other">%1$s new items (%2$s unread)</item>-->
+        <!--<item quantity="one">%1$s new item (%2$s unread)</item>-->
+    </plurals>
+
+    <string name="about">About</string>
+    <string name="accept">Accept</string>
+    <string name="about_share_this_app">Share this app</string>
+    <string name="about_rate_this_app">Rate this app</string>
+    <string name="about_title_developer">Developer</string>
+    <string name="about_contact_developer">Feedback</string>
+    <string name="about_developer_website">Website</string>
+    <string name="action_mark_all_as_read">Mark all as read</string>
+    <string name="action_sort_by_date">Sort by date</string>
+    <string name="action_toggle_layout">Toggle layout</string>
+    <string name="action_view_only_unread">View only unread</string>
+    <string name="action_view_all">View all</string>
+    <string name="button_send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="category">Category</string>
+    <string name="category_all">All</string>
+    <string name="comments">Comments</string>
+    <string name="context_toggle_above_read">Mark above as read</string>
+    <string name="context_toggle_bookmark">Bookmark</string>
+    <string name="context_toggle_un_bookmark">Remove bookmark</string>
+    <string name="context_toggle_read">Mark read</string>
+    <string name="context_toggle_unread">Mark unread</string>
+    <string name="decline">Decline</string>
+    <string name="default_app">Default</string>
+    <string name="delete">Delete</string>
+    <string name="delete_question">%1$s?</string>
+    <string name="disable">Disable</string>
+    <string name="dialog_item_app_version">App Version</string>
+    <string name="dialog_item_device_customization">Brand/Customization</string>
+    <string name="dialog_item_device_model">Model</string>
+    <string name="dialog_item_device_manufacturer">Manufacturer</string>
+    <string name="dialog_item_device_os">Android OS</string>
+    <string name="dialog_item_message">Message</string>
+    <string name="dialog_item_subject">Subject</string>
+    <string name="dialog_item_device_details">Device details</string>
+    <string name="dialog_spinner_item_other">Other</string>
+    <string name="dialog_spinner_item_problem">Problem</string>
+    <string name="dialog_spinner_item_suggestion">Suggestion</string>
+    <string name="dialog_new_version_title">New version available</string>
+    <string name="dialog_new_version_message">Please download and install.</string>
+    <string name="dialog_new_version_download_button">Download</string>
+    <string name="enable">Enable</string>
+    <string name="error_failed_gmail_launch">"Couldn't open Gmail"</string>
+    <string name="error_enter_message">Enter a message!</string>
+    <string name="fullscreen">Fullscreen</string>
+    <string name="social_media_share">Share on</string>
+    <string name="menu_language">Language</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="message_mark_all_as_read_question">%1$s?</string>
+    <string name="more_plus">+%1$d more</string>
+    <string name="nav_drawer_header_title">Android Studio</string>
+    <string name="nav_drawer_header_subtitle">android.studio@android.com</string>
+    <string name="nav_drawer_header_desc">Navigation header</string>
+    <string name="nav_drawer_all_items">Home</string>
+    <string name="nav_drawer_bookmarks">Bookmarks</string>
+    <string name="nav_drawer_themes">Theme</string>
+    <string name="nav_drawer_uncategorised">Uncategorized</string>
+    <string name="nav_drawer_youtube">Videos</string>
+    <string name="nav_drawer_web_promote">Promote your Music</string>
+    <string name="nav_drawer_web">Web</string>
+    <string name="nav_drawer_header_social_media">Social Media</string>
+    <string name="nav_drawer_hulk_share">Audiomack Music</string>
+    <string name="nav_drawer_online_radio">Online Radio</string>
+    <string name="nav_drawer_instagram">Instagram</string>
+    <string name="nav_drawer_facebook">Facebook</string>
+    <string name="nav_drawer_twitter">Twitter</string>
+    <string name="nav_drawer_header_contact">Contact</string>
+    <string name="nav_drawer_mobile">Mobile</string>
+    <string name="nav_drawer_email">Email</string>
+    <string name="nav_drawer_share">Share this app</string>
+    <string name="nav_drawer_rate">Rate this app</string>
+    <string name="nav_drawer_feedback">Feedback</string>
+    <string name="notification_channel_fcm_default" translatable="false">fcm_push_default_channel</string>
+    <string name="notification_channel_one_signal_silent" translatable="false">one_signal_silent_channel</string>
+    <string name="notification_channel_push_name" translatable="false">Push notification</string>
+    <string name="notification_channel_new_posts_default">New posts</string>
+    <string name="notification_channel_new_posts_high">New posts (Heads-up)</string>
+    <string name="notification_channel_radio">Online Radio</string>
+    <string name="notification_stop">Stop</string>
+    <string name="notification_swipe_to_stop">Swipe to stop</string>
+    <string name="notification_playing">Playing</string>
+    <string name="ok">OK</string>
+    <string name="open_in_browser">Open in browser</string>
+    <string name="play">Play</string>
+    <string name="preference">Preferences</string>
+    <string name="radio_listen_to">Listen to %1$s</string>
+    <string name="related_posts">Related posts</string>
+    <string name="save">Save</string>
+    <string name="search">@android:string/search_go</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="title_activity_radio_player">Now Playing</string>
+    <string name="terms_and_privacy_policy">Terms &amp; privacy policy</string>
+    <string name="wifi_only">WiFi-Only</string>
+    <string name="youtube_api_service">YouTube</string>
+    <string name="youtube_player_options">Video player</string>
+    <string name="youtube_player_option_lightbox">Lightbox</string>
+    <string name="youtube_player_option_external">YouTube</string>
+    <string name="youtube_open_in">Open in YouTube</string>
+    <string name="admob_native" translatable="false">ca-app-pub-3285248344087070/6756756520</string>
+    <!-- Strings related to Settings -->
+    <string name="pref_title_post_language">Post language</string>
+    <string name="pref_title_items_limit">Items limit</string>
+    <string name="pref_header_item_detail_view">Item Detail View</string>
+    <string name="pref_title_item_font_size">Font size</string>
+    <string name="pref_title_volume_keys_navigation">Use volume keys</string>
+    <string name="pref_summary_volume_keys_navigation">Use volume keys to navigate through items</string>
+    <string name="pref_title_hardware_acceleration">Hardware acceleration</string>
+    <string name="pref_summary_hardware_acceleration">Turn off if you encounter poor performance while viewing items</string>
+
+    <!-- =============== AppRater ================== -->
+    <string name="apprater_rate_this_app">Rate this app</string>
+    <string name="apprater_not_now">Not now</string>
+    <string name="apprater_no_thanks">No thanks</string>
+
+
+    <string name="applovin_banner_ad_id">835b2acb899d3596</string>
+    <string name="appodeal_inters_id">7fcf269a650de8fe</string>
+    <string name="applovin_mrec_ad_id">835b2acb899d3596</string>
+
+</resources>

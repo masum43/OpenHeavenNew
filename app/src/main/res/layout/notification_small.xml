@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/thumb_container"
+        android:layout_width="96dp"
+        android:layout_height="64dp"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@id/thumb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/image_placeholder"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_gravity="bottom|center|end"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/notification_small_icon_background"
+            android:contentDescription="@null"
+            android:padding="1.5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_notification"
+            android:tint="@color/app_signature_accent" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/thumb_container"
+        android:layout_toLeftOf="@+id/arrow_down"
+        android:layout_toRightOf="@+id/thumb_container"
+        android:layout_toStartOf="@+id/arrow_down">
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/TextAppearance.Compat.Notification.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="3"
+            android:textSize="14sp"
+            tools:text="Blah Blah title goes here!!!" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/arrow_down"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:contentDescription="@null"
+        android:scaleType="center"
+        android:src="@drawable/ic_chevron_down_black_18dp" />
+</RelativeLayout>

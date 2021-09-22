@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Card Items Style -->
+    <style name="CardItem.Title.Compact" parent="@style/CardItemTitleCompact">
+        <item name="android:maxLines">5</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+    </style>
+
+    <style name="CardItem.Title.Compact.Media" parent="@style/CardItemTitleCompact">
+        <item name="android:maxLines">5</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+    </style>
+
+    <style name="CardItem.Title.Large" parent="@style/CardItemTitleCompact">
+        <item name="android:maxLines">5</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+    </style>
+
+    <style name="CardItem.Description.Compact" parent="@style/CardItemDescriptionCompact">
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+    </style>
+
+    <style name="CardItem.Description.Compact.Media" parent="@style/CardItemDescriptionCompact">
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+    </style>
+
+    <style name="CardItem.Description.Large" parent="@style/CardItemDescriptionCompact">
+        <item name="android:maxLines">3</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+    </style>
+
+    <style name="CardItem.TimeFeedTitle.Compact" parent="@style/CardItemDescriptionCompact">
+        <item name="android:maxLines">1</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+    </style>
+
+
+    <!-- Video Items Style -->
+    <style name="VideoItemText.Title" parent="@style/VideoItemText">
+        <item name="android:maxLines">3</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textColor">?appTextColorPrimary</item>
+    </style>
+
+    <style name="VideoItemText.Channel" parent="@style/VideoItemText">
+        <item name="android:maxLines">1</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="android:textColor">?appTextColorSecondary</item>
+    </style>
+
+    <style name="VideoItemText.DateViews" parent="@style/VideoItemText">
+        <item name="android:maxLines">1</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="android:textColor">?appTextColorSecondary</item>
+    </style>
+</resources>

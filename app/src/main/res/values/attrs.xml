@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="drawerBackgroundColor" format="reference|color" />
+    <attr name="drawerItemIconColor" format="reference|color" />
+    <attr name="drawerDividerColor" format="reference|color" />
+    <attr name="favoriteIconTint" format="reference|color" />
+    <attr name="appBarLayoutTheme" format="reference" />
+    <attr name="toolBarPopupTheme" format="reference" />
+    <attr name="tabLayoutIndicatorColor" format="reference|color" />
+    <attr name="appCardBackground" format="reference|color" />
+    <attr name="appAdCardBackground" format="reference|color" />
+    <attr name="appTextColorPrimary" format="reference|color" />
+    <attr name="appTextColorSecondary" format="reference|color" />
+    <attr name="appEmptyIconTint" format="reference|color" />
+    <attr name="appEmptyTextColor" format="reference|color" />
+    <attr name="entryDetailProgressBar" format="reference" />
+    <attr name="entryDetailBackground" format="reference|color" />
+    <attr name="entryDetailColor" format="reference|color" />
+    <attr name="entryDetailHeaderColor" format="reference|color" />
+    <attr name="entryDetailSubHeaderColor" format="reference|color" />
+    <attr name="entryDetailLinkColor" format="reference|color" />
+    <attr name="entryDetailButtonColor" format="reference|color" />
+    <attr name="entryDetailButtonBorderColor" format="reference|color" />
+    <attr name="videoListBackground" format="reference|color" />
+    <attr name="youtubeTinyIconColor" format="reference|color" />
+    <declare-styleable name="CustomImageView">
+        <attr name="customHeight" format="float" />
+    </declare-styleable>
+</resources>

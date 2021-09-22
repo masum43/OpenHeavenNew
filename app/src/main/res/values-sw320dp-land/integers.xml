@@ -1,0 +1,5 @@
+<resources>
+    <integer name="num_entry_columns_compact">2</integer>
+    <integer name="num_entry_columns_compact_media">2</integer>
+    <integer name="num_entry_columns_large">2</integer>
+</resources>

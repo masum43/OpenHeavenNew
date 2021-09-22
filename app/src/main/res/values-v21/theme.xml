@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme_Light" parent="@style/Theme_Light">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Light" parent="@style/AppTheme_Light">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Tomato" parent="@style/Theme_Tomato">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Tomato" parent="@style/AppTheme_Tomato">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Red" parent="@style/Theme_Red">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Red" parent="@style/AppTheme_Red">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Flamingo" parent="@style/Theme_Flamingo">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Flamingo" parent="@style/AppTheme_Flamingo">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Pink" parent="@style/Theme_Pink">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Pink" parent="@style/AppTheme_Pink">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Purple" parent="@style/Theme_Purple">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Purple" parent="@style/AppTheme_Purple">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Deep_Purple" parent="@style/Theme_Deep_Purple">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Deep_Purple" parent="@style/AppTheme_Deep_Purple">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Indigo" parent="@style/Theme_Indigo">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Indigo" parent="@style/AppTheme_Indigo">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Blue" parent="@style/Theme_Blue">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Blue" parent="@style/AppTheme_Blue">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Light_Blue" parent="@style/Theme_Light_Blue">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Light_Blue" parent="@style/AppTheme_Light_Blue">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Lavender" parent="@style/Theme_Lavender">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Lavender" parent="@style/AppTheme_Lavender">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Cyan" parent="@style/Theme_Cyan">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Cyan" parent="@style/AppTheme_Cyan">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Teal" parent="@style/Theme_Teal">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Teal" parent="@style/AppTheme_Teal">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Green" parent="@style/Theme_Green">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Green" parent="@style/AppTheme_Green">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Light_Green" parent="@style/Theme_Light_Green">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Light_Green" parent="@style/AppTheme_Light_Green">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Lime" parent="@style/Theme_Lime">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Lime" parent="@style/AppTheme_Lime">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Banana" parent="@style/Theme_Banana">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Banana" parent="@style/AppTheme_Banana">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Orange" parent="@style/Theme_Orange">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Orange" parent="@style/AppTheme_Orange">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Deep_Orange" parent="@style/Theme_Deep_Orange">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Deep_Orange" parent="@style/AppTheme_Deep_Orange">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Brown" parent="@style/Theme_Brown">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Brown" parent="@style/AppTheme_Brown">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_BlueGrey" parent="@style/Theme_BlueGrey">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_BlueGrey" parent="@style/AppTheme_BlueGrey">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Black" parent="@style/Theme_Black">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Black" parent="@style/AppTheme_Black">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Dark" parent="@style/Theme_Dark">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Dark" parent="@style/AppTheme_Dark">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme_Night" parent="@style/Theme_Night">
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Nav_AppTheme_Night" parent="@style/AppTheme_Night">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+</resources>

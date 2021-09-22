@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="500"
+        android:entries="@array/items_storage_limit_values"
+        android:entryValues="@array/items_storage_limit_values"
+        android:key="items_storage_limit"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_items_limit" />
+
+    <PreferenceCategory android:title="@string/pref_header_item_detail_view">
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/pref_font_size_titles"
+            android:entryValues="@array/pref_font_size_values"
+            android:key="entry_detail_font_size"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_title_item_font_size" />
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

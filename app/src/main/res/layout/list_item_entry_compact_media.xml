@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewRoot"
+    style="@style/Card.ListItem.Root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/bookmark"
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="?favoriteIconTint"
+        android:visibility="gone"
+        tools:background="@color/app_primary_material_red"
+        tools:visibility="visible" />
+
+    <RelativeLayout
+        style="@style/Card.ListItem.LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/entry_image_height"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:contentDescription="@null"-->
+        <!--android:scaleType="centerCrop" />-->
+
+        <com.newandromo.dev18147.app821162.views.CustomImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:customHeight="0.76"
+            tools:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:paddingBottom="@dimen/list_item_entry_padding_top_bottom_compact"
+            android:paddingEnd="@dimen/list_item_entry_padding_side_compact"
+            android:paddingStart="@dimen/list_item_entry_padding_side_compact"
+            android:paddingTop="@dimen/list_item_entry_padding_top_bottom_compact">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                style="@style/CardItem.Title.Compact.Media"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_marginBottom="2dp"
+                tools:text="Sample entry title" />
+
+            <TextView
+                android:id="@+id/descriptionTextView"
+                style="@style/CardItem.Description.Compact.Media"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_below="@+id/titleTextView"
+                android:layout_marginBottom="2dp"
+                android:visibility="gone"
+                tools:text="Sample entry description"
+                tools:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_below="@+id/descriptionTextView"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/dateTextView"
+                    style="@style/CardItem.TimeFeedTitle.Compact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|bottom"
+                    android:textAlignment="viewStart"
+                    tools:text="2 hours ago" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+    <!-- END -->
+
+    <dimen name="list_item_entry_image_margin_start">16dp</dimen>
+    <dimen name="list_item_entry_padding_side_compact">16dp</dimen>
+    <dimen name="list_item_entry_padding_top_bottom_compact">16dp</dimen>
+    <dimen name="list_item_entry_padding_large">16dp</dimen>
+    <dimen name="list_item_entry_bookmark_width">6dp</dimen>
+    <dimen name="list_item_entry_footer_margin_top">8dp</dimen>
+
+    <dimen name="list_item_entry_margin_end">16dp</dimen>
+    <dimen name="list_item_entry_margin_start">16dp</dimen>
+    <dimen name="list_item_entry_margin_top">16dp</dimen>
+    <dimen name="list_item_entry_padding_bottom">16dp</dimen>
+    <dimen name="list_item_entry_margin_tight">16dp</dimen>
+
+    <dimen name="entry_card_side_padding">16dp</dimen>
+    <dimen name="entry_card_top_bottom_padding">8dp</dimen>
+    <dimen name="entry_image_height">340dp</dimen>
+    <dimen name="entry_image_width_compact">150dp</dimen>
+    <dimen name="entry_image_height_compact">140dp</dimen>
+    <dimen name="entry_image_width_compact_tight">156dp</dimen>
+    <dimen name="entry_image_height_compact_tight">146dp</dimen>
+
+    <dimen name="video_thumbnail_width">195dp</dimen>
+    <dimen name="video_item_recycler_view_padding">8dp</dimen>
+    <dimen name="video_item_padding_end">8dp</dimen>
+    <dimen name="video_item_padding_start">8dp</dimen>
+    <dimen name="video_item_margin_start">16dp</dimen>
+    <dimen name="video_views_icon_width_height">18dp</dimen>
+    <dimen name="preview_item_padding_bottom_top">16dp</dimen>
+    <dimen name="preview_item_padding_start_end">16dp</dimen>
+    <dimen name="draggable_list_item_side_margin">52dp</dimen>
+</resources>

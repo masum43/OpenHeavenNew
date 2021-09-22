@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/bookmark"
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="?favoriteIconTint"
+        android:visibility="gone"
+        tools:background="@color/app_primary_material_red"
+        tools:visibility="visible" />
+
+    <RelativeLayout
+
+        style="@style/Card.ListItem.LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/entry_image_height"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:contentDescription="@null"-->
+        <!--android:scaleType="centerCrop" />-->
+        <com.newandromo.dev18147.app821162.views.CustomImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@null"
+            app:customHeight="0.56"
+            tools:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:padding="@dimen/list_item_entry_padding_large">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                style="@style/CardItem.Title.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_marginBottom="4dp"
+                tools:text="Sample entry title" />
+
+            <TextView
+                android:id="@+id/descriptionTextView"
+                style="@style/CardItem.Description.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_below="@+id/titleTextView"
+                android:layout_marginBottom="4dp"
+                android:visibility="gone"
+                tools:text="Sample entry description"
+                tools:visibility="visible" />
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_below="@+id/descriptionTextView"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/dateTextView"
+                    style="@style/CardItem.TimeFeedTitle.Large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|bottom"
+                    android:textAlignment="viewStart"
+                    tools:text="2 hours ago" />
+            </LinearLayout>
+
+
+        <FrameLayout
+            android:layout_below="@+id/ll"
+            android:id="@+id/fl_adplaceholder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+    </RelativeLayout>
+        </RelativeLayout>
+
+</FrameLayout>

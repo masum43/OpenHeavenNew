@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="entry_card_side_padding">8dp</dimen>
+    <dimen name="entry_card_top_bottom_padding">8dp</dimen>
+    <dimen name="entry_image_width_compact">96dp</dimen>
+    <dimen name="entry_image_height_compact">86dp</dimen>
+
+    <dimen name="entry_title_text_size_large">18sp</dimen>
+    <dimen name="entry_description_text_size_large">16sp</dimen>
+    <dimen name="entry_timefeedtitle_text_size_large">14sp</dimen>
+
+    <dimen name="video_thumbnail_width">130dp</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="video_thumbnail_width">195dp</dimen>
+    <dimen name="entry_image_width_compact">106dp</dimen>
+    <dimen name="entry_image_height_compact">96dp</dimen>
+</resources>

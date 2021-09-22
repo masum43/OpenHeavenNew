@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "978253695679",
+    "project_id": "open-heavens-new22",
+    "storage_bucket": "open-heavens-new22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978253695679:android:1e97c5660cf9d9dd11540a",
+        "android_client_info": {
+          "package_name": "com.newandromo.dev18147.app821162"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978253695679-d5jkga4ivr3gfcb17394na8eg4as3hh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUoWUVj1CRPeyyut7wG31fZzoPsfEtqfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978253695679-d5jkga4ivr3gfcb17394na8eg4as3hh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

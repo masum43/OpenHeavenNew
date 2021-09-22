@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.RadioPlayerFragment"
+    tools:showIn="@layout/activity_radio_player">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/player_controls">
+
+        <RelativeLayout
+            android:id="@+id/bannerLayoutCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </ScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/player_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:cardBackgroundColor="?appCardBackground"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="@dimen/card_elevation_radio_playback_controls"
+        app:cardPreventCornerOverlap="@bool/card_prevent_corner_overlap"
+        app:cardUseCompatPadding="@bool/card_use_compat_padding"
+        app:contentPadding="0dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/station_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="#ff111111"
+                android:contentDescription="@null"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/radio_tower" />
+
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_toStartOf="@+id/player_share_button"
+                android:layout_toLeftOf="@+id/player_share_button"
+                android:layout_toEndOf="@+id/station_icon"
+                android:layout_toRightOf="@+id/station_icon"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/station_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="?android:attr/textColorPrimary"
+                    tools:text="Radio Blah Blah 98.2 FM" />
+
+                <TextView
+                    android:id="@+id/station_metadata"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:maxLines="1"
+                    android:scrollHorizontally="true"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:visibility="gone"
+                    tools:text="Radio slogan"
+                    tools:visibility="visible" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/player_share_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_toStartOf="@+id/player_playback_button"
+                android:layout_toLeftOf="@+id/player_playback_button"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@null"
+                android:padding="8dp"
+                android:src="@drawable/ic_share_white_36dp" />
+
+            <ImageButton
+                android:id="@+id/player_playback_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@null"
+                android:padding="8dp"
+                tools:src="@drawable/ic_play_arrow_white_36dp" />
+        </RelativeLayout>
+
+        <!--Banner-->
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

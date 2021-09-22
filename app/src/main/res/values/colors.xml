@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--@color/grey_200-->
+    <color name="window_background_light">#e6ebea</color>
+    <color name="window_background_dark">#171717</color>
+    <color name="window_background_night">@android:color/black</color>
+
+    <!--grey_500 | grey_100-->
+    <color name="app_primary_dark_material_light">@android:color/black</color>
+    <color name="app_primary_material_light">@color/grey_100</color>
+    <color name="app_accent_material_light">@color/app_signature_accent</color>
+
+    <color name="app_primary_dark_material_dark">#0d0d0d</color>
+    <color name="app_primary_material_dark">#171717</color>
+    <color name="app_accent_material_dark">@color/deep_teal_200</color>
+
+    <color name="app_primary_dark_material_night">@android:color/black</color>
+    <color name="app_primary_material_night">@android:color/black</color>
+    <color name="app_accent_material_night">@color/deep_teal_200</color>
+
+    <color name="app_primary_dark_material_black">@color/grey_900</color>
+    <color name="app_primary_material_black">@color/grey_800</color>
+    <color name="app_accent_material_black">@color/deep_teal_500</color>
+
+    <color name="app_primary_dark_material_tomato">#279123</color>
+    25AF21<color name="app_primary_material_tomato">#279123</color>
+    <color name="app_accent_material_tomato">#25AF21</color>
+
+    <color name="app_primary_dark_material_red">#279123</color>
+    <color name="app_primary_material_red">#25AF21</color>
+    <color name="app_accent_material_red">#25AF21</color>
+
+    <color name="app_primary_dark_material_flamingo">#B8635C</color>
+    <color name="app_primary_material_flamingo">#E67C73</color>
+    <color name="app_accent_material_flamingo">#ED8077</color>
+
+    <color name="app_primary_dark_material_pink">#AD1457</color>
+    <color name="app_primary_material_pink">#C2185B</color>
+    <color name="app_accent_material_pink">#FF4081</color>
+
+    <color name="app_primary_dark_material_purple">#6A1B9A</color>
+    <color name="app_primary_material_purple">#7B1FA2</color>
+    <color name="app_accent_material_purple">#C51162</color>
+
+    <color name="app_primary_dark_material_deep_purple">#4527A0</color>
+    <color name="app_primary_material_deep_purple">#512DA8</color>
+    <color name="app_accent_material_deep_purple">#C51162</color>
+
+    <color name="app_primary_dark_material_indigo">#303F9F</color>
+    <color name="app_primary_material_indigo">#3F51B5</color>
+    <color name="app_accent_material_indigo">#FF4081</color>
+
+    <color name="app_primary_dark_material_blue">#3B50CE</color>
+    <color name="app_primary_material_blue">#455EDE</color>
+    <color name="app_accent_material_blue">#FF4081</color>
+
+    <color name="app_primary_dark_material_light_blue">#0277BD</color>
+    <color name="app_primary_material_light_blue">#0288D1</color>
+    <color name="app_accent_material_light_blue">#FF4081</color>
+
+    <color name="app_primary_dark_material_lavender">#616BA2</color>
+    <color name="app_primary_material_lavender">#7986CB</color>
+    <color name="app_accent_material_lavender">#818FD9</color>
+
+    <color name="app_primary_dark_material_cyan">#00838F</color>
+    <color name="app_primary_material_cyan">#0097A7</color>
+    <color name="app_accent_material_cyan">#00B8D4</color>
+
+    <color name="app_primary_dark_material_teal">#00695C</color>
+    <color name="app_primary_material_teal">#00796B</color>
+    <color name="app_accent_material_teal">#00BFA5</color>
+
+    <color name="app_primary_dark_material_green">#2E7D32</color>
+    <color name="app_primary_material_green">#388E3C</color>
+    <color name="app_accent_material_green">#00C853</color>
+
+    <color name="app_primary_dark_material_light_green">#558B2F</color>
+    <color name="app_primary_material_light_green">#689F38</color>
+    <color name="app_accent_material_light_green">#64DD17</color>
+
+    <color name="app_primary_dark_material_lime">#9E9D24</color>
+    <color name="app_primary_material_lime">#AFB42B</color>
+    <color name="app_accent_material_lime">#AEEA00</color>
+
+    <color name="app_primary_dark_material_banana">#F9A825</color>
+    <color name="app_primary_material_banana">#FBC02D</color>
+    <color name="app_accent_material_banana">#FFD600</color>
+
+    <color name="app_primary_dark_material_orange">#EF6C00</color>
+    <color name="app_primary_material_orange">#F57C00</color>
+    <color name="app_accent_material_orange">#FF6D00</color>
+
+    <color name="app_primary_dark_material_deep_orange">#D84315</color>
+    <color name="app_primary_material_deep_orange">#E64A19</color>
+    <color name="app_accent_material_deep_orange">#DD2C00</color>
+
+    <color name="app_primary_dark_material_brown">#4E342E</color>
+    <color name="app_primary_material_brown">#5D4037</color>
+    <color name="app_accent_material_brown">#8D6E63</color>
+
+    <color name="app_primary_dark_material_bluegrey">#37474F</color>
+    <color name="app_primary_material_bluegrey">#455A64</color>
+    <color name="app_accent_material_bluegrey">#DD2C00</color>
+
+    <color name="app_text_primary">@color/grey_900</color>
+    <color name="app_text_secondary">@color/grey_700</color>
+    <color name="card_dark_background">@color/grey_900</color>
+    <color name="card_light_background">@android:color/white</color>
+    <color name="image_placeholder">#F4F4F4</color>
+    <color name="image_placeholder_dark">@color/grey_850</color>
+    <color name="image_placeholder_night">@android:color/black</color>
+    <color name="app_ripple_material_light">#1F000000</color>
+    <color name="app_ripple_material_dark">#4DFFFFFF</color>
+    <color name="toolbar_title_text_dark">@android:color/white</color>
+    <color name="drawer_selected_item_bg_light">#EDEDED</color>
+    <color name="drawer_divider_color_light">#E5E5E5</color>
+    <color name="drawer_item_icon_color_light">@color/grey_600</color>
+    <color name="drawer_sub_header_color_light">@color/grey_500</color>
+    <color name="drawer_header_image_placeholder">#FFBABABA</color>
+
+    <color name="list_item_background">#AACCCCCC</color>
+
+    <color name="app_signature_accent">#D94336</color>
+
+    <color name="deep_teal_200">#80CBC4</color>
+    <color name="deep_teal_500">#009688</color>
+
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_12">#1FFFFFFF</color>
+
+    <color name="dark_54">#8A000000</color>
+    <color name="dark_50">#80000000</color>
+    <color name="dark_38">#61000000</color>
+    <color name="dark_10">#1A000000</color>
+
+    <color name="green_400">#ff66bb6a</color>
+
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_850">#303030</color>
+    <color name="grey_900">#212121</color>
+    <color name="grey_deepen">#202020</color>
+</resources>

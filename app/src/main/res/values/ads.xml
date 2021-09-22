@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AdCardView.Style" parent="CardView.Style">
+        <item name="cardBackgroundColor">?appAdCardBackground</item>
+    </style>
+
+    <!-- todo START Facebook Native - Normal Layout -->
+    <!-- Styles -->
+    <style name="FaceBookMediaView">
+        <item name="android:layout_width">match_parent</item>
+        <!--wrap_content-->
+        <item name="android:layout_height">176dp</item>
+    </style>
+
+    <!-- Dimensions -->
+    <dimen name="fb_title_container_side_margin">8dp</dimen>
+    <dimen name="fb_native_ad_icon_width_height">36dp</dimen>
+    <dimen name="fb_native_ad_icon_margin_end">8dp</dimen>
+    <dimen name="fb_native_ad_title_text_size">16sp</dimen>
+    <dimen name="fb_native_ad_body_text_size">14sp</dimen>
+    <dimen name="fb_ad_label_margin_start">8dp</dimen>
+    <dimen name="fb_ad_label_side_padding">6dp</dimen>
+    <dimen name="fb_ad_label_text_size">12sp</dimen>
+    <dimen name="fb_native_ad_cta_height">40dp</dimen>
+    <dimen name="fb_native_ad_cta_side_padding">12dp</dimen>
+    <dimen name="fb_native_ad_cta_text_size">14sp</dimen>
+
+    <!-- Integers -->
+    <integer name="fb_native_ad_title_max_lines">3</integer>
+    <integer name="fb_native_ad_body_max_lines">3</integer>
+
+    <!-- todo END Facebook Native - Normal Layout -->
+
+    <!-- todo START Facebook Native - Media Layout -->
+    <!-- Dimensions -->
+    <dimen name="fb_native_ad_media_height_media">128dp</dimen>
+    <dimen name="fb_privacy_policy_label_margin_top_media">4dp</dimen>
+    <dimen name="fb_ad_label_margin_start_media">8dp</dimen>
+    <dimen name="fb_ad_label_text_size_media">12sp</dimen>
+    <dimen name="fb_title_container_side_margin_media">8dp</dimen>
+    <dimen name="fb_native_ad_title_text_size_media">14sp</dimen>
+    <dimen name="fb_native_ad_body_text_size_media">12sp</dimen>
+    <dimen name="fb_native_ad_icon_width_height_media">28dp</dimen>
+    <dimen name="fb_native_ad_icon_margin_start_media">8dp</dimen>
+    <dimen name="fb_native_ad_cta_height_media">36dp</dimen>
+    <dimen name="fb_native_ad_cta_side_padding_media">12dp</dimen>
+    <dimen name="fb_native_ad_cta_text_size_media">14sp</dimen>
+
+    <!-- Integers -->
+    <integer name="fb_native_ad_title_max_lines_media">3</integer>
+    <integer name="fb_native_ad_body_max_lines_media">4</integer>
+    <!-- todo END Facebook Native - Media Layout -->
+
+    <!---========================================================================================-->
+    <!---========================================================================================-->
+
+    <!-- todo START MoPub Native - Normal Layout -->
+    <!-- Styles -->
+    <style name="MoPubMediaView">
+        <item name="android:layout_width">match_parent</item>
+        <!--wrap_content-->
+        <item name="android:layout_height">176dp</item>
+    </style>
+
+    <!-- Dimensions -->
+    <dimen name="mp_native_mini_padding">8dp</dimen>
+    <dimen name="mp_native_icon_image_width_height">36dp</dimen>
+    <dimen name="mp_native_icon_image_margin_end">8dp</dimen>
+    <dimen name="mp_native_title_text_size">16sp</dimen>
+    <dimen name="mp_native_text_size">14sp</dimen>
+    <dimen name="mp_native_main_image_height">180dp</dimen>
+    <dimen name="mp_native_privacy_icon_width_height">40dp</dimen>
+    <dimen name="mp_native_privacy_icon_padding">10dp</dimen>
+    <dimen name="mp_ad_label_margin_start">8dp</dimen>
+    <dimen name="mp_ad_label_side_padding">6dp</dimen>
+    <dimen name="mp_ad_label_text_size">12sp</dimen>
+    <dimen name="mp_native_ad_cta_height">40dp</dimen>
+    <dimen name="mp_native_ad_cta_side_padding">12dp</dimen>
+    <dimen name="mp_native_ad_cta_text_size_media">14sp</dimen>
+
+    <!-- Integers -->
+    <integer name="mp_native_title_max_lines">3</integer>
+    <integer name="mp_native_text_max_lines">3</integer>
+
+    <!-- todo END MoPub Native - Normal Layout -->
+
+
+    <!-- todo START MoPub Native - Media Layout -->
+    <!-- Dimensions -->
+    <dimen name="mp_native_main_image_height_media">128dp</dimen>
+    <dimen name="mp_native_media_layout_height_media">128dp</dimen>
+    <dimen name="mp_native_icon_container_margin_top_media">8dp</dimen>
+    <dimen name="mp_native_icon_container_side_margin_media">8dp</dimen>
+    <dimen name="mp_native_icon_image_width_height_media">28dp</dimen>
+    <dimen name="mp_ad_label_text_size_media">12sp</dimen>
+    <dimen name="mp_title_container_side_margin_media">8dp</dimen>
+    <dimen name="mp_native_title_text_size_media">14sp</dimen>
+    <dimen name="mp_native_text_size_media">12sp</dimen>
+    <dimen name="mp_native_privacy_icon_width_height_media">36dp</dimen>
+    <dimen name="mp_native_privacy_icon_margin_start_media">2dp</dimen>
+    <dimen name="mp_native_privacy_icon_padding_media">8dp</dimen>
+    <dimen name="mp_native_cta_height_media">36dp</dimen>
+    <dimen name="mp_native_cta_side_padding_media">12dp</dimen>
+    <dimen name="mp_native_cta_text_size_media">14sp</dimen>
+
+    <!-- Integers -->
+    <integer name="mp_native_title_max_lines_media">3</integer>
+    <integer name="mp_native_text_max_lines_media">3</integer>
+    <!-- todo END MoPub Native - Media Layout -->
+</resources>

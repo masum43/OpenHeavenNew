@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="entry_card_side_padding">4dp</dimen>
+    <dimen name="entry_card_top_bottom_padding">4dp</dimen>
+    <dimen name="entry_image_width_compact">76dp</dimen>
+    <dimen name="entry_image_height_compact">76dp</dimen>
+</resources>

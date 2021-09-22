@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/header"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_items"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="@string/nav_drawer_all_items" />
+        <item
+            android:id="@+id/nav_bookmarks"
+            android:icon="@drawable/ic_bookmark_check_black_24dp"
+            android:title="@string/nav_drawer_bookmarks" />
+        <item
+            android:id="@+id/nav_videos"
+            android:visible="false"
+            android:icon="@drawable/ic_ondemand_video_black_24dp"
+            android:title="@string/nav_drawer_youtube" />
+
+        <item
+            android:id="@+id/nav_extra_web"
+            android:checkable="false"
+            android:visible="false"
+            android:icon="@drawable/ic_web_asset_black_24dp"
+            android:title="@string/nav_drawer_web_promote" />
+        <item
+            android:id="@+id/nav_web"
+            android:checkable="false"
+            android:visible="false"
+            android:icon="@drawable/ic_web_black_24dp"
+            android:title="@string/nav_drawer_web" />
+    </group>
+
+    <item android:title="@string/nav_drawer_header_social_media"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_social_facebook"
+                android:icon="@drawable/ic_facebook_box_black_24dp"
+                android:title="@string/nav_drawer_facebook" />
+            <item
+                android:id="@+id/nav_social_instagram"
+                android:icon="@drawable/ic_instagram_black_24dp"
+                android:title="@string/nav_drawer_instagram" />
+            <item
+                android:id="@+id/nav_social_twitter"
+                android:icon="@drawable/ic_twitter_box_black_24dp"
+                android:title="@string/nav_drawer_twitter" />
+            <item
+                android:id="@+id/nav_social_youtube"
+                android:icon="@drawable/ic_youtube_play_black_24dp"
+                android:title="@string/youtube_api_service" />
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_drawer_header_contact"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_contact_phone"
+                android:icon="@drawable/ic_contact_phone_black_24dp"
+                android:title="@string/nav_drawer_mobile" />
+            <item
+                android:id="@+id/nav_contact_email"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="@string/nav_drawer_email" />
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/footer"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_style"
+            android:icon="@drawable/ic_style_black_24dp"
+            android:title="@string/nav_drawer_themes" />
+        <item
+            android:id="@+id/nav_rate_app"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="@string/nav_drawer_rate" />
+        <item
+            android:id="@+id/nav_share_app"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="@string/nav_drawer_share" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="@string/about" />
+    </group>
+</menu>

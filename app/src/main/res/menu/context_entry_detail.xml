@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/context_selection_save_image"
+        android:title="@string/save"
+        android:visible="false"
+        app:showAsAction="" />
+
+    <item
+        android:id="@+id/context_selection_copy_url"
+        android:title="@android:string/copyUrl"
+        app:showAsAction="" />
+
+    <item
+        android:id="@+id/context_selection_open_in_browser"
+        android:title="@string/open_in_browser"
+        app:showAsAction="" />
+
+    <item
+        android:id="@+id/context_selection_share"
+        android:title="@string/share"
+        app:showAsAction="" />
+</menu>

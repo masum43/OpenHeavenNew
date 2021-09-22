@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewRoot"
+    style="@style/AdCardView.Style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="HardcodedText,UselessParent,UseCompoundDrawables">
+
+    <RelativeLayout
+        android:id="@+id/native_outer_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/native_mini"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <RelativeLayout
+                android:id="@+id/ad_choices_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="end"
+                tools:background="@android:color/holo_blue_bright" />
+
+            <RelativeLayout
+                android:id="@+id/titleContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ad_choices_container"
+                android:paddingStart="@dimen/fb_title_container_side_margin"
+                android:paddingLeft="@dimen/fb_title_container_side_margin"
+                android:paddingEnd="@dimen/fb_title_container_side_margin"
+                android:paddingRight="@dimen/fb_title_container_side_margin"
+                android:paddingBottom="@dimen/fb_title_container_side_margin">
+
+                <com.facebook.ads.AdIconView
+                    android:id="@+id/native_ad_icon"
+                    android:layout_width="@dimen/fb_native_ad_icon_width_height"
+                    android:layout_height="@dimen/fb_native_ad_icon_width_height"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="@dimen/fb_native_ad_icon_margin_end"
+                    android:layout_marginRight="@dimen/fb_native_ad_icon_margin_end"
+                    tools:background="@android:color/holo_blue_dark" />
+
+                <TextView
+                    android:id="@+id/native_ad_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/native_ad_icon"
+                    android:layout_toRightOf="@+id/native_ad_icon"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/lato_bold"
+                    android:maxLines="@integer/fb_native_ad_title_max_lines"
+                    android:textColor="?appTextColorPrimary"
+                    android:textSize="@dimen/fb_native_ad_title_text_size"
+                    tools:text="native title" />
+
+                <TextView
+                    android:id="@+id/native_ad_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:layout_below="@+id/native_ad_title"
+                    android:layout_toEndOf="@+id/native_ad_icon"
+                    android:layout_toRightOf="@+id/native_ad_icon"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_regular"
+                    android:maxLines="@integer/fb_native_ad_body_max_lines"
+                    android:textColor="?appTextColorSecondary"
+                    android:textSize="@dimen/fb_native_ad_body_text_size"
+                    tools:text="native description" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <com.facebook.ads.MediaView
+            android:id="@+id/native_ad_media"
+            style="@style/FaceBookMediaView"
+            android:layout_below="@+id/native_mini"
+            tools:background="@android:color/darker_gray"
+            tools:layout_height="180dp" />
+
+        <RelativeLayout
+            android:id="@+id/native_ad_footer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/native_ad_media">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <TextView
+                    android:id="@+id/ad_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/fb_ad_label_margin_start"
+                    android:layout_marginLeft="@dimen/fb_ad_label_margin_start"
+                    android:background="@drawable/ad_label_border"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/fb_ad_label_side_padding"
+                    android:paddingLeft="@dimen/fb_ad_label_side_padding"
+                    android:paddingEnd="@dimen/fb_ad_label_side_padding"
+                    android:paddingRight="@dimen/fb_ad_label_side_padding"
+                    android:text="Ad"
+                    android:textAllCaps="false"
+                    android:textColor="?appTextColorPrimary"
+                    android:textSize="@dimen/fb_ad_label_text_size"
+                    tools:text="Ad" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/native_ad_call_to_action"
+                    android:layout_toLeftOf="@+id/native_ad_call_to_action"
+                    android:layout_toEndOf="@+id/ad_label"
+                    android:layout_toRightOf="@+id/ad_label" />
+
+                <Button
+                    android:id="@+id/native_ad_call_to_action"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/fb_native_ad_cta_height"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:fontFamily="@font/lato_bold"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/fb_native_ad_cta_side_padding"
+                    android:paddingLeft="@dimen/fb_native_ad_cta_side_padding"
+                    android:paddingEnd="@dimen/fb_native_ad_cta_side_padding"
+                    android:paddingRight="@dimen/fb_native_ad_cta_side_padding"
+                    android:textAllCaps="false"
+                    android:textColor="?attr/colorControlActivated"
+                    android:textSize="@dimen/fb_native_ad_cta_text_size"
+                    tools:text="Learn More" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

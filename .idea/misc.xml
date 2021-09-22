@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_entry_details.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/fragment_dummy.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/fragment_entry_detail.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/fragment_entry_list.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/list_item_carousel_related_post.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/list_item_entry_compact.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/list_item_entry_compact_img_left.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/list_item_entry_compact_media.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/list_item_entry_large.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/layout/list_item_entry_large_items.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/viewpager.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.24895833333333334" />
+        <entry key="app/src/main/res/xml/preferences.xml" value="0.24895833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

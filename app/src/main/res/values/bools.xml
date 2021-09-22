@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="card_prevent_corner_overlap">false</bool>
+    <bool name="card_use_compat_padding">true</bool>
+    <bool name="is_tablet">false</bool>
+    <bool name="smallest_screen_width_320dp">false</bool>
+    <bool name="is_right_to_left">false</bool>
+    <bool name="is_portrait">true</bool>
+</resources>

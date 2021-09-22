@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--grey_500 | grey_100-->
+    <color name="app_primary_material_light">@android:color/white</color>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_youtube_player_modes_entries">
+        <item>@string/default_app</item>
+        <item>@string/youtube_player_option_lightbox</item>
+        <item>@string/youtube_player_option_external</item>
+    </string-array>
+
+    <string-array name="pref_youtube_player_modes_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="pref_font_size_titles">
+        <item>@string/font_size_tiny</item>
+        <item>@string/font_size_small</item>
+        <item>@string/default_app</item>
+        <item>@string/font_size_large</item>
+        <item>@string/font_size_huge</item>
+    </string-array>
+
+    <string-array name="pref_font_size_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="items_storage_limit_values" translatable="false">
+        <item>100</item>
+        <item>250</item>
+        <item>300</item>
+        <item>500</item>
+    </string-array>
+
+    <string-array name="contact_developer_spinner_entries">
+        <item>@string/dialog_spinner_item_problem</item>
+        <item>@string/dialog_spinner_item_suggestion</item>
+        <item>@string/dialog_spinner_item_other</item>
+    </string-array>
+</resources>

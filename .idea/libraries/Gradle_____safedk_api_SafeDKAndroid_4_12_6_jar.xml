@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./.safedk/api/SafeDKAndroid-4.12.6.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.safedk/api/SafeDKAndroid-4.12.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

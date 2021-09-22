@@ -1,0 +1,8 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewRoot"
+    style="@style/Card.ListItem.Root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include layout="@layout/list_item_entry_large_items" />
+</androidx.cardview.widget.CardView>

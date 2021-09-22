@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme_Light" />
+
+    <style name="AppTheme_Light" parent="@style/Theme_Light" />
+
+    <style name="AppTheme_Tomato" parent="@style/Theme_Tomato" />
+
+    <style name="AppTheme_Red" parent="@style/Theme_Red" />
+
+    <style name="AppTheme_Flamingo" parent="@style/Theme_Flamingo" />
+
+    <style name="AppTheme_Pink" parent="@style/Theme_Pink" />
+
+    <style name="AppTheme_Purple" parent="@style/Theme_Purple" />
+
+    <style name="AppTheme_Deep_Purple" parent="@style/Theme_Deep_Purple" />
+
+    <style name="AppTheme_Indigo" parent="@style/Theme_Indigo" />
+
+    <style name="AppTheme_Blue" parent="@style/Theme_Blue" />
+
+    <style name="AppTheme_Light_Blue" parent="@style/Theme_Light_Blue" />
+
+    <style name="AppTheme_Lavender" parent="@style/Theme_Lavender" />
+
+    <style name="AppTheme_Cyan" parent="@style/Theme_Cyan" />
+
+    <style name="AppTheme_Teal" parent="@style/Theme_Teal" />
+
+    <style name="AppTheme_Green" parent="@style/Theme_Green" />
+
+    <style name="AppTheme_Light_Green" parent="@style/Theme_Light_Green" />
+
+    <style name="AppTheme_Lime" parent="@style/Theme_Lime" />
+
+    <style name="AppTheme_Banana" parent="@style/Theme_Banana" />
+
+    <style name="AppTheme_Orange" parent="@style/Theme_Orange" />
+
+    <style name="AppTheme_Deep_Orange" parent="@style/Theme_Deep_Orange" />
+
+    <style name="AppTheme_Brown" parent="@style/Theme_Brown" />
+
+    <style name="AppTheme_BlueGrey" parent="@style/Theme_BlueGrey" />
+
+    <style name="AppTheme_Black" parent="@style/Theme_Black" />
+
+    <style name="AppTheme_Dark" parent="@style/Theme_Dark" />
+
+    <style name="AppTheme_Night" parent="@style/Theme_Night" />
+
+    <!-- ======================================================================================= -->
+
+    <style name="Theme_Light" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/CustomAnimation</item>
+        <item name="android:windowBackground">@color/window_background_light</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="toolBarPopupTheme">@color/grey_500</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_light</item>
+        <item name="colorPrimary">@color/app_primary_material_light</item>
+        <item name="colorAccent">@color/app_accent_material_light</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="colorControlHighlight">@color/app_ripple_material_light</item>
+
+        <item name="drawerBackgroundColor">@android:color/white</item>
+        <item name="drawerItemIconColor">@color/drawer_item_icon_color_light</item>
+        <item name="drawerDividerColor">@color/drawer_divider_color_light</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+
+        <item name="tabLayoutIndicatorColor">?colorAccent</item>
+        <item name="appCardBackground">@color/card_light_background</item>
+        <item name="appAdCardBackground">@color/grey_100</item>
+        <item name="appTextColorPrimary">@color/app_text_primary</item>
+        <item name="appTextColorSecondary">@color/app_text_secondary</item>
+        <item name="appEmptyIconTint">@color/grey_500</item>
+        <item name="videoListBackground">@android:color/white</item>
+        <item name="youtubeTinyIconColor">@color/grey_500</item>
+
+        <item name="entryDetailProgressBar">@style/CustomProgressBar</item>
+        <item name="entryDetailBackground">@android:color/white</item>
+        <item name="entryDetailColor">@color/grey_900</item>
+        <item name="entryDetailHeaderColor">@color/grey_900</item>
+        <item name="entryDetailSubHeaderColor">@color/grey_700</item>
+        <item name="entryDetailLinkColor">#B71C1C</item>
+        <item name="entryDetailButtonColor">@color/grey_700</item>
+        <item name="entryDetailButtonBorderColor">#E5E5E5</item>
+    </style>
+
+    <style name="Theme_Tomato" parent="@style/Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_tomato</item>
+        <item name="colorPrimary">@color/app_primary_material_tomato</item>
+        <item name="colorAccent">@color/app_accent_material_tomato</item>
+        <item name="colorControlActivated">?colorPrimaryDark</item>
+        <item name="entryDetailLinkColor">?colorPrimaryDark</item>
+        <item name="favoriteIconTint">?colorPrimary</item>
+    </style>
+
+    <style name="Theme_Red" parent="@style/Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_red</item>
+        <item name="colorPrimary">@color/app_primary_material_red</item>
+        <item name="colorAccent">@color/app_accent_material_red</item>
+        <item name="colorControlActivated">?colorPrimary</item>
+        <item name="entryDetailLinkColor">?colorPrimaryDark</item>
+        <item name="favoriteIconTint">?colorPrimary</item>
+    </style>
+
+    <style name="Theme_Flamingo" parent="@style/Theme_Light">
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_flamingo</item>
+        <item name="colorPrimary">@color/app_primary_material_flamingo</item>
+        <item name="colorAccent">@color/app_accent_material_flamingo</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">?colorPrimary</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+    </style>
+
+    <style name="Theme_Pink" parent="@style/Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_pink</item>
+        <item name="colorPrimary">@color/app_primary_material_pink</item>
+        <item name="colorAccent">@color/app_accent_material_pink</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">#C51162</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+    </style>
+
+    <style name="Theme_Purple" parent="@style/Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_purple</item>
+        <item name="colorPrimary">@color/app_primary_material_purple</item>
+        <item name="colorAccent">@color/app_accent_material_purple</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">?colorAccent</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+    </style>
+
+    <style name="Theme_Deep_Purple" parent="@style/Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_deep_purple</item>
+        <item name="colorPrimary">@color/app_primary_material_deep_purple</item>
+        <item name="colorAccent">@color/app_accent_material_deep_purple</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">?colorAccent</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+    </style>
+
+    <style name="Theme_Indigo" parent="@style/Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_indigo</item>
+        <item name="colorPrimary">@color/app_primary_material_indigo</item>
+        <item name="colorAccent">@color/app_accent_material_indigo</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">#C51162</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+    </style>
+
+    <style name="Theme_Blue" parent="@style/Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_blue</item>
+        <item name="colorPrimary">@color/app_primary_material_blue</item>
+        <item name="colorAccent">@color/app_accent_material_blue</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">#C51162</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+    </style>
+
+    <style name="Theme_Light_Blue" parent="@style/Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_light_blue</item>
+        <item name="colorPrimary">@color/app_primary_material_light_blue</item>
+        <item name="colorAccent">@color/app_accent_material_light_blue</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">#C51162</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+    </style>
+
+    <style name="Theme_Lavender" parent="@style/Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_lavender</item>
+        <item name="colorPrimary">@color/app_primary_material_lavender</item>
+        <item name="colorAccent">@color/app_accent_material_lavender</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">?colorPrimary</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+    </style>
+
+    <style name="Theme_Cyan" parent="@style/Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_cyan</item>
+        <item name="colorPrimary">@color/app_primary_material_cyan</item>
+        <item name="colorAccent">@color/app_accent_material_cyan</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">?colorPrimary</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+    </style>
+
+    <style name="Theme_Teal" parent="@style/Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_teal</item>
+        <item name="colorPrimary">@color/app_primary_material_teal</item>
+        <item name="colorAccent">@color/app_accent_material_teal</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">?colorPrimary</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+    </style>
+
+    <style name="Theme_Green" parent="@style/Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_green</item>
+        <item name="colorPrimary">@color/app_primary_material_green</item>
+        <item name="colorAccent">@color/app_accent_material_green</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">?colorPrimary</item>
+    </style>
+
+    <style name="Theme_Light_Green" parent="@style/Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_light_green</item>
+        <item name="colorPrimary">@color/app_primary_material_light_green</item>
+        <item name="colorAccent">@color/app_accent_material_light_green</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">?colorPrimaryDark</item>
+        <item name="favoriteIconTint">?colorPrimary</item>
+    </style>
+
+    <style name="Theme_Lime" parent="@style/Theme_Light">
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_lime</item>
+        <item name="colorPrimary">@color/app_primary_material_lime</item>
+        <item name="colorAccent">@color/app_accent_material_lime</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">?colorPrimaryDark</item>
+        <item name="favoriteIconTint">?colorPrimary</item>
+    </style>
+
+    <style name="Theme_Banana" parent="@style/Theme_Light">
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_banana</item>
+        <item name="colorPrimary">@color/app_primary_material_banana</item>
+        <item name="colorAccent">@color/app_accent_material_banana</item>
+        <item name="colorControlActivated">?colorPrimaryDark</item>
+        <item name="entryDetailLinkColor">#F57F17</item>
+        <item name="favoriteIconTint">?colorPrimary</item>
+    </style>
+
+    <style name="Theme_Orange" parent="@style/Theme_Light">
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_orange</item>
+        <item name="colorPrimary">@color/app_primary_material_orange</item>
+        <item name="colorAccent">@color/app_accent_material_orange</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">?colorAccent</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+    </style>
+
+    <style name="Theme_Deep_Orange" parent="@style/Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_deep_orange</item>
+        <item name="colorPrimary">@color/app_primary_material_deep_orange</item>
+        <item name="colorAccent">@color/app_accent_material_deep_orange</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">?colorAccent</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+    </style>
+
+    <style name="Theme_Brown" parent="@style/Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_brown</item>
+        <item name="colorPrimary">@color/app_primary_material_brown</item>
+        <item name="colorAccent">@color/app_accent_material_brown</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">?colorAccent</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+    </style>
+
+    <style name="Theme_BlueGrey" parent="@style/Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_bluegrey</item>
+        <item name="colorPrimary">@color/app_primary_material_bluegrey</item>
+        <item name="colorAccent">@color/app_accent_material_bluegrey</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">?colorAccent</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+    </style>
+
+    <style name="Theme_Black" parent="Theme_Light">
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="tabLayoutIndicatorColor">@android:color/white</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_black</item>
+        <item name="colorPrimary">@color/app_primary_material_black</item>
+        <item name="colorAccent">@color/app_accent_material_black</item>
+        <item name="colorControlActivated">?colorAccent</item>
+        <item name="entryDetailLinkColor">?colorAccent</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+    </style>
+
+    <style name="Theme_Dark" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/CustomAnimation</item>
+        <item name="android:windowBackground">@color/window_background_dark</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="appBarLayoutTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="toolBarPopupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_dark</item>
+        <item name="colorPrimary">@color/app_primary_material_dark</item>
+        <item name="colorAccent">@color/app_accent_material_dark</item>
+        <item name="colorControlHighlight">@color/app_ripple_material_dark</item>
+
+        <item name="drawerBackgroundColor">@color/window_background_dark</item>
+        <item name="drawerDividerColor">@color/white_12</item>
+        <item name="drawerItemIconColor">@color/grey_500</item>
+        <item name="favoriteIconTint">?colorAccent</item>
+
+        <item name="tabLayoutIndicatorColor">?colorAccent</item>
+        <item name="appCardBackground">@color/card_dark_background</item>
+        <item name="appAdCardBackground">@color/grey_850</item>
+        <item name="appTextColorPrimary">@color/white_80</item>
+        <item name="appTextColorSecondary">@color/white_60</item>
+        <item name="appEmptyIconTint">#7F7F7F</item>
+        <item name="videoListBackground">@color/card_dark_background</item>
+        <item name="youtubeTinyIconColor">@color/grey_600</item>
+
+        <item name="entryDetailProgressBar">@style/CustomProgressBar_Dark</item>
+        <item name="entryDetailBackground">@color/card_dark_background</item>
+        <item name="entryDetailColor">#C9C9C9</item>
+        <item name="entryDetailHeaderColor">#CCCCCC</item>
+        <item name="entryDetailSubHeaderColor">#8C8C8C</item>
+        <item name="entryDetailLinkColor">?colorAccent</item>
+        <item name="entryDetailButtonColor">#8C8C8C</item>
+        <item name="entryDetailButtonBorderColor">#404040</item>
+    </style>
+
+    <style name="Theme_Night" parent="@style/AppTheme_Dark">
+        <item name="android:windowBackground">@color/window_background_night</item>
+        <item name="colorPrimaryDark">@color/app_primary_dark_material_night</item>
+        <item name="colorPrimary">@color/app_primary_material_night</item>
+        <item name="colorAccent">@color/app_accent_material_night</item>
+
+        <item name="drawerBackgroundColor">@color/window_background_night</item>
+        <item name="drawerItemIconColor">@color/white_50</item>
+
+        <item name="tabLayoutIndicatorColor">?colorAccent</item>
+        <item name="appCardBackground">@android:color/black</item>
+        <item name="appAdCardBackground">#101010</item>
+        <item name="appTextColorPrimary">@color/white_70</item>
+        <item name="appTextColorSecondary">@color/white_50</item>
+        <item name="videoListBackground">@color/window_background_night</item>
+        <item name="youtubeTinyIconColor">@color/grey_700</item>
+
+        <item name="entryDetailBackground">@android:color/black</item>
+        <item name="entryDetailColor">#B0B0B0</item>
+        <item name="entryDetailHeaderColor">#B3B3B3</item>
+        <item name="entryDetailSubHeaderColor">#808080</item>
+        <item name="entryDetailLinkColor">?colorAccent</item>
+        <item name="entryDetailButtonColor">#777777</item>
+        <item name="entryDetailButtonBorderColor">#404040</item>
+    </style>
+
+    <style name="CustomProgressBar" parent="@style/AppTheme">
+        <item name="colorControlActivated">@color/app_ripple_material_light</item>
+    </style>
+
+    <style name="CustomProgressBar_Dark" parent="@style/AppTheme_Dark">
+        <item name="colorControlActivated">@color/app_ripple_material_dark</item>
+    </style>
+
+    <style name="CustomAnimation" parent="android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:activityOpenExitAnimation">@anim/stay</item>
+        <!--<item name="android:activityCloseEnterAnimation"></item>-->
+        <!--<item name="android:activityCloseExitAnimation"></item>-->
+    </style>
+
+    <!-- theme-nav-drawer -->
+    <style name="Nav_AppTheme_Light" parent="@style/AppTheme_Light" />
+
+    <style name="Nav_AppTheme_Tomato" parent="@style/AppTheme_Tomato" />
+
+    <style name="Nav_AppTheme_Red" parent="@style/AppTheme_Red" />
+
+    <style name="Nav_AppTheme_Flamingo" parent="@style/AppTheme_Flamingo" />
+
+    <style name="Nav_AppTheme_Pink" parent="@style/AppTheme_Pink" />
+
+    <style name="Nav_AppTheme_Purple" parent="@style/AppTheme_Purple" />
+
+    <style name="Nav_AppTheme_Deep_Purple" parent="@style/AppTheme_Deep_Purple" />
+
+    <style name="Nav_AppTheme_Indigo" parent="@style/AppTheme_Indigo" />
+
+    <style name="Nav_AppTheme_Blue" parent="@style/AppTheme_Blue" />
+
+    <style name="Nav_AppTheme_Light_Blue" parent="@style/AppTheme_Light_Blue" />
+
+    <style name="Nav_AppTheme_Lavender" parent="@style/AppTheme_Lavender" />
+
+    <style name="Nav_AppTheme_Cyan" parent="@style/AppTheme_Cyan" />
+
+    <style name="Nav_AppTheme_Teal" parent="@style/AppTheme_Teal" />
+
+    <style name="Nav_AppTheme_Green" parent="@style/AppTheme_Green" />
+
+    <style name="Nav_AppTheme_Light_Green" parent="@style/AppTheme_Light_Green" />
+
+    <style name="Nav_AppTheme_Lime" parent="@style/AppTheme_Lime" />
+
+    <style name="Nav_AppTheme_Banana" parent="@style/AppTheme_Banana" />
+
+    <style name="Nav_AppTheme_Orange" parent="@style/AppTheme_Orange" />
+
+    <style name="Nav_AppTheme_Deep_Orange" parent="@style/AppTheme_Deep_Orange" />
+
+    <style name="Nav_AppTheme_Brown" parent="@style/AppTheme_Brown" />
+
+    <style name="Nav_AppTheme_BlueGrey" parent="@style/AppTheme_BlueGrey" />
+
+    <style name="Nav_AppTheme_Black" parent="@style/AppTheme_Black" />
+
+    <style name="Nav_AppTheme_Dark" parent="@style/AppTheme_Dark" />
+
+    <style name="Nav_AppTheme_Night" parent="@style/AppTheme_Night" />
+</resources>

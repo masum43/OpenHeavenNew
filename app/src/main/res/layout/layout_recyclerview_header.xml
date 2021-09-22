@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/header_view_container"
+    android:layout_width="match_parent"
+    android:layout_height="190dp">
+
+    <!--<com.asksira.loopingviewpager.LoopingViewPager-->
+    <!--android:id="@+id/bullet_view_pager"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--app:autoScroll="true"-->
+    <!--app:isInfinite="true"-->
+    <!--app:scrollInterval="5000"-->
+    <!--app:wrap_content="true" />-->
+
+    <!--<com.rd.PageIndicatorView-->
+    <!--android:id="@+id/view_pager_indicator"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="bottom|center_horizontal"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--app:piv_animationDuration="200"-->
+    <!--app:piv_animationType="worm"-->
+    <!--app:piv_interactiveAnimation="true"-->
+    <!--app:piv_padding="6dp"-->
+    <!--app:piv_radius="4dp"-->
+    <!--app:piv_selectedColor="?attr/colorAccent" />-->
+</FrameLayout>

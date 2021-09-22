@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewRoot"
+    style="@style/Card.ListItem.Root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/bookmark"
+        android:layout_width="@dimen/list_item_entry_bookmark_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="?favoriteIconTint"
+        android:visibility="gone"
+        tools:background="@color/app_primary_material_red"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        style="@style/Card.ListItem.LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/list_item_entry_padding_top_bottom_compact"
+        android:paddingEnd="@dimen/list_item_entry_padding_side_compact"
+        android:paddingStart="@dimen/list_item_entry_padding_side_compact"
+        android:paddingTop="@dimen/list_item_entry_padding_top_bottom_compact">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/entry_image_width_compact"
+                android:layout_height="@dimen/entry_image_height_compact"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/list_item_entry_image_margin_start"
+                android:layout_marginStart="@dimen/list_item_entry_image_margin_start"
+                android:contentDescription="@null"
+                tools:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/titleTextView"
+                style="@style/CardItem.Title.Compact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_marginBottom="2dp"
+                android:layout_toLeftOf="@+id/imageView"
+                android:layout_toStartOf="@+id/imageView"
+                tools:text="Sample entry title" />
+
+            <TextView
+                android:id="@+id/descriptionTextView"
+                style="@style/CardItem.Description.Compact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_below="@+id/titleTextView"
+                android:layout_toLeftOf="@+id/imageView"
+                android:layout_toStartOf="@+id/imageView"
+                android:visibility="gone"
+                tools:text="Sample entry description"
+                tools:visibility="visible" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="@dimen/list_item_entry_footer_margin_top"
+            android:gravity="center_vertical|start"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dateTextView"
+                style="@style/CardItem.TimeFeedTitle.Compact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textAlignment="viewStart"
+                tools:text="2 hours ago" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_below="@+id/ll"
+            android:id="@+id/fl_adplaceholder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

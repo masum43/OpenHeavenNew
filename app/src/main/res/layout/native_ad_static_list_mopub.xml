@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewRoot"
+    style="@style/CardView.Style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="HardcodedText,UselessParent,UseCompoundDrawables">
+
+    <RelativeLayout
+        android:id="@+id/native_outer_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/native_mini"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="@dimen/mp_native_mini_padding">
+
+            <ImageView
+                android:id="@+id/native_icon_image"
+                android:layout_width="@dimen/mp_native_icon_image_width_height"
+                android:layout_height="@dimen/mp_native_icon_image_width_height"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="@dimen/mp_native_icon_image_margin_end"
+                android:layout_marginRight="@dimen/mp_native_icon_image_margin_end"
+                android:background="@null"
+                android:contentDescription="@null"
+                tools:background="@android:color/holo_blue_dark" />
+
+
+            <TextView
+                android:id="@+id/native_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/native_icon_image"
+                android:layout_toRightOf="@+id/native_icon_image"
+                android:ellipsize="end"
+                android:fontFamily="@font/lato_bold"
+                android:maxLines="@integer/mp_native_title_max_lines"
+                android:textColor="?appTextColorPrimary"
+                android:textSize="@dimen/mp_native_title_text_size"
+                tools:text="native title" />
+
+            <TextView
+                android:id="@+id/native_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/native_title"
+                android:layout_toEndOf="@+id/native_icon_image"
+                android:layout_toRightOf="@+id/native_icon_image"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_regular"
+                android:maxLines="@integer/mp_native_text_max_lines"
+                android:textColor="?appTextColorSecondary"
+                android:textSize="@dimen/mp_native_text_size"
+                tools:text="native description" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/native_main_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mp_native_main_image_height"
+            android:layout_below="@+id/native_mini"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            tools:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:id="@+id/native_ad_footer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/native_main_image">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <ImageView
+                    android:id="@+id/native_privacy_information_icon_image"
+                    android:layout_width="@dimen/mp_native_privacy_icon_width_height"
+                    android:layout_height="@dimen/mp_native_privacy_icon_width_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:background="@null"
+                    android:contentDescription="@null"
+                    android:padding="@dimen/mp_native_privacy_icon_padding"
+                    tools:background="@android:color/holo_blue_bright" />
+
+                <TextView
+                    android:id="@+id/ad_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mp_ad_label_margin_start"
+                    android:layout_marginStart="@dimen/mp_ad_label_margin_start"
+                    android:layout_toEndOf="@+id/native_privacy_information_icon_image"
+                    android:layout_toRightOf="@+id/native_privacy_information_icon_image"
+                    android:background="@drawable/ad_label_border"
+                    android:fontFamily="@font/roboto_regular"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:paddingEnd="@dimen/mp_ad_label_side_padding"
+                    android:paddingLeft="@dimen/mp_ad_label_side_padding"
+                    android:paddingRight="@dimen/mp_ad_label_side_padding"
+                    android:paddingStart="@dimen/mp_ad_label_side_padding"
+                    android:text="Ad"
+                    android:textAllCaps="false"
+                    android:textColor="?appTextColorPrimary"
+                    android:textSize="@dimen/mp_ad_label_text_size"
+                    tools:text="Ad" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/ad_label"
+                    android:layout_toLeftOf="@+id/native_cta"
+                    android:layout_toRightOf="@+id/ad_label"
+                    android:layout_toStartOf="@+id/native_cta" />
+
+                <Button
+                    android:id="@+id/native_cta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/mp_native_ad_cta_height"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:fontFamily="@font/lato_bold"
+                    android:gravity="center"
+                    android:paddingEnd="@dimen/mp_native_ad_cta_side_padding"
+                    android:paddingLeft="@dimen/mp_native_ad_cta_side_padding"
+                    android:paddingRight="@dimen/mp_native_ad_cta_side_padding"
+                    android:paddingStart="@dimen/mp_native_ad_cta_side_padding"
+                    android:textAllCaps="false"
+                    android:textColor="?attr/colorControlActivated"
+                    android:textSize="@dimen/mp_native_ad_cta_text_size_media"
+                    tools:text="Learn More" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
